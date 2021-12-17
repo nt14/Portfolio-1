@@ -1,0 +1,106 @@
+body {
+    background-color: #c0c0c0;
+    color: #000000;
+    
+} 
+.subHeading { 
+
+    margin: 0 30px 0 0; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subHeading a{ 
+font-size: 40px;
+margin: 0 60px;
+text-decoration: none;
+color: black;
+}
+
+
+
+h1 {
+  color: floralwhite;
+}
+
+.content{
+    margin-left: 20px;
+    display: inline-block;
+    width: 75%;
+    
+}
+
+
+.boxes{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    width: 60%;
+    height: 100%;
+    background-color: gainsboro;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px darkgray; 
+    margin-bottom: 50px;
+    color: white;
+}  
+
+.content h4{
+    color: white;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.aboutme {
+    font-size: 20px;
+    float: right 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+    height: 300px;
+    
+}
+.aboutme img{
+    max-width: 150px;
+    display: block;
+    margin: 10px auto;
+    padding-right: 50px;
+
+}
+.floatleft{
+    float: left;
+    margin-left: 25px;
+
+}
+.worksection {
+    font-size: 20px;
+    float: right 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+    
+    
+    
+}
+.contact {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.contact h4{
+    color: black;
+    margin-right: 25px;
+    font-size: 30px;
+    
+    
+    
+}
+.contact a{ 
+    text-align: center;
+    margin-right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
