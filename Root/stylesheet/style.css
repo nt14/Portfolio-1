@@ -5,15 +5,22 @@ body {
 } 
 .subHeading { 
 
-    margin: 0 30px 0 0; 
-    text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    background-color:#c0c0c0; 
+
+    
+ 
 }
 .subHeading a{ 
-font-size: 40px;
-margin: 0 60px;
-text-decoration: none;
-color: black;
+    color: #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 7%;
+    margin-right: 10%;
+
+    
+    
 }
 
 
@@ -42,12 +49,15 @@ h1 {
     box-shadow: 10px 10px 5px darkgray; 
     margin-bottom: 50px;
     color: white;
-}  
+}  .boxes:hover {
+    opacity: 0.3;
+}
+
 
 .content h4{
-    color: white;
+    color:white;
     margin-right: 25px;
-    font-size: 30px;
+    font-size: xx-large;
 }
 .aboutme {
     font-size: 20px;
@@ -74,7 +84,7 @@ h1 {
     float: right 30px;
     padding: 10px;
     margin-bottom: 50px;
-    
+    color: white; 
     
     
     
@@ -83,24 +93,39 @@ h1 {
     font-size: 20px;
     padding: 10px;
     margin-bottom: 50px;
+    color:black;
     
     
     
 }
 .contact h4{
-    color: black;
-    margin-right: 25px;
-    font-size: 30px;
+    color:black;
+    margin-right: 25px; 
+    font-size: 40px;
+    color: #000
     
     
     
 }
 .contact a{ 
     text-align: center;
-    margin-right: 50px;
+    margin-right: 50px; 
     font-size: 30px;
     text-decoration: none;
-    color: black;
-    
+    color: #000;
+    color: #000
 }
 
+.contact {
+    font-size: xx-large;
+    color: #000
+}
+@media screen and (max-width: 700px) {
+    .aboutme {
+        font-size: 1.25rem;
+    }
+    .subHeading {
+       
+        flex-direction: column;
+        text-align: center;}
+}
